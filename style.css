@@ -1,0 +1,39 @@
+
+:root {
+    --main-color: #6a0dad;
+    --main-hover: #550a8a;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+.navbar {
+    background-color: var(--main-color);
+}
+
+.btn-primary {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--main-hover);
+    border-color: var(--main-hover);
+}
+
+a {
+    color: var(--main-color);
+}
+
+a:hover {
+    color: var(--main-hover);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.form-control {
+    text-align: right;
+}
